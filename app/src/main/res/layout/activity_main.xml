@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ic_photo"
+        android:contentDescription="photo_profile" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/field_rectangle"
+        android:paddingStart="16dp"
+        android:hint="@string/field_name_hint"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/et_palindrome"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/field_rectangle"
+        android:paddingStart="16dp"
+        android:hint="@string/palindrome"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_rectangle"
+        android:text="@string/btn_check"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_rectangle"
+        android:text="@string/btn_next"/>
+
+</LinearLayout>

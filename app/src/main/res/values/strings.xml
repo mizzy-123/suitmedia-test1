@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">suitmedia_test1</string>
+    <string name="field_name_hint">Name</string>
+    <string name="palindrome">Palindrome</string>
+    <string name="btn_check">CHECK</string>
+    <string name="btn_next">NEXT</string>
+    <string name="welcome">Welcome</string>
+    <string name="selected_user_name">Selected User Name</string>
+    <string name="choose_a_user">Choose a User</string>
+    <string name="retry">Retry</string>
+</resources>
